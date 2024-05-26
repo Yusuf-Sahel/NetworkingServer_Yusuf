@@ -48,3 +48,24 @@ public class NetworkingServer {
                         InputStreamReader(clientIn));
                 String msgFromClient = br.readLine();
                 System.out.println("Message received from client = " + msgFromClient);
+
+                // Skicka svar till klient
+                if (msgFromClient != null && !msgFromClient.equalsIgnoreCase("bye")) {
+                    OutputStream clientOut = client.getOutputStream();
+                    PrintWriter pw = new PrintWriter(clientOut, true);
+                    String ansMsg = "Hello, " + msgFromClient;
+                    pw.println(ansMsg);
+                }
+
+                // Stäng sockets
+                if (msgFromClient != null && msgFromClient.equalsIgnoreCase("bye")) {
+                    server.close();
+                    client.close();
+                    break;
+                }
+
+            } catch (IOException ie) {
+            }
+        }
+    }
+}
