@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c72a176-1557-4c5a-a408-283812d6a6a0" name="Changes" comment="Nätverkslabb" />
+    <list default="true" id="9c72a176-1557-4c5a-a408-283812d6a6a0" name="Changes" comment="Nätverkslabb">
+      <change afterPath="$PROJECT_DIR$/src/NetworkingServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +16,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2h19SXnvf5KMPIhkImOO9BeizF2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -26,6 +32,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/yusuf.sahel/AppData/Local/Temp/137fada0-c848-4a13-99ac-0172546176fd_airplanebookings.zip.6fd/NetworkingServer_Yusuf/src/Main.java",
     "settings.editor.selected.configurable": "preferences.lookFeel",
@@ -48,6 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1716750719666</updated>
       <workItem from="1716750720756" duration="152000" />
+      <workItem from="1716750882440" duration="488000" />
     </task>
     <task id="LOCAL−00001" summary="Nätverkslabb">
       <option name="closed" value="true" />
@@ -56,7 +67,14 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1716750855187</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="Nätverkslabb">
+      <option name="closed" value="true" />
+      <created>1716750952564</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1716750952564</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -65,16 +83,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Nätverkslabb" />
     <option name="LAST_COMMIT_MESSAGE" value="Nätverkslabb" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>5</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
